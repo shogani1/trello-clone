@@ -62,7 +62,7 @@ const Header = ({ data }: HeaderProps) => {
   );
 };
 
-Header.Skeleton = () => {
+Header.Skeleton = function headerSkeleton() {
   return (
     <div className="flex items-start gap-x-3 mb-6">
       <Skeleton className="h-6 w-6 mt-1 bg-neutral-200" />
@@ -73,7 +73,5 @@ Header.Skeleton = () => {
     </div>
   );
 };
-
-Header.Skeleton.displayName = "headerSkeleton";
 
 export default Header;
