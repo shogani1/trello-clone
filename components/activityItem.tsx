@@ -8,6 +8,10 @@ interface ActivityItemProps {
 }
 
 const ActivityItem = ({ data }: ActivityItemProps) => {
+  const formatedDate = format(
+    new Date(data.createdAt),
+    "MMM d, yyyy 'at' h:mm a"
+  );
   return (
     <li className="flex item-center gap-x-2">
       <Avatar className="h-8 w-8">
@@ -19,9 +23,7 @@ const ActivityItem = ({ data }: ActivityItemProps) => {
             {data.userName}
           </span>{" "}
           {generateLogMessage(data)}
-          <p className="text-xs text-muted-foreground">
-            {format(new Date(data.createdAt), "MMM d, yyyy 'at' h:mm a")}
-          </p>
+          <p className="text-xs text-muted-foreground">{formatedDate}</p>
         </p>
       </div>
     </li>
