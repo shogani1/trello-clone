@@ -1,4 +1,4 @@
-# Trello Clone
+# Taskify(Trello clone)
 ### App builded with:
 - Next.js
 - typescript
