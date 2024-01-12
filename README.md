@@ -1,5 +1,5 @@
 # Trello Clone
-## Key features:
+## Builded with:
 - Next.js
 - typescript
 - Tailwind CSS
