@@ -1,9 +1,7 @@
 # Trello Clone
-## Builded with:
+## App builded with:
 - Next.js
 - typescript
 - Tailwind CSS
 - Prisma ORM
 - Stripe
-
-  
