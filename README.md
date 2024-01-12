@@ -1,12 +1,12 @@
 # Trello Clone
-## App builded with:
+### App builded with:
 - Next.js
 - typescript
 - Tailwind CSS
 - Shadcn/ui 
 - Prisma ORM
 - Stripe
-## Key features:
+### Key features:
 - auth
 - create/delete/update board
 - creating/updating/deleting/copy list
