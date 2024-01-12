@@ -7,7 +7,7 @@
 - Prisma ORM
 - Stripe
 ## Key features:
--auth
+- auth
 - create/delete/update board
 - creating/updating/deleting/copy list
 - creating/updating/deleting.copy card
