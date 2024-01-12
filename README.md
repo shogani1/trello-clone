@@ -10,7 +10,7 @@
 - auth
 - create/delete/update board
 - creating/updating/deleting/copy list
-- creating/updating/deleting.copy card
+- creating/updating/deleting/copy card
 - reordering list (drag and drop)
 - board limit per org
 - stripe subscription witch allow your organization create unlimited boards (test card 4242 4242 4242 4242)
